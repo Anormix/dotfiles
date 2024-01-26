@@ -45,7 +45,10 @@ Some of them are not finished and I will add a TODO list to show everything that
 - **Editor** - nvim
 - **Hardware Monitor** - btop
 - **Color Scheme** - Catpuccin Mocha
-- **Application Runner** - rofi 
+- **Application Runner** - rofi
+- **Wallpaper Manager**
+  -*X11* - nitrogen
+
 
 ## Using my dotfiles
 > [!NOTE]
@@ -54,7 +57,7 @@ Some of them are not finished and I will add a TODO list to show everything that
 > Everything that isn't in the **TODO** section should work perfectly fine.
 
 ## Reporting bugs / Suggestions
-If you find a bug in my configs or there is a better way to impliment something do not hesitate to write a bug report or to message me!
+If you find a bug in my configs or there is a better way to implement something do not hesitate to write a bug report or to message me!
 **Before sending a bug report find out if the issue is caused by something you did and not actually by the config file.**
 
 
