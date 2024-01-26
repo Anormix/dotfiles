@@ -27,3 +27,5 @@ dunst &
 
 bspc rule -a pavucontrol state=floating
 bspc rule -a Pavucontrol state=floating
+bspc rule -a steamwebhelper state=floating
+bspc rule -a steam state=floating 

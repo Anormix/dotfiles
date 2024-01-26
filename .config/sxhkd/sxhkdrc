@@ -31,7 +31,7 @@ super + F4
   alacritty -e btop
 
 super + F5
-  alacritty -e ~/.config/scrot.sh
+ maim | xclip -selection clipboard -t image/png
 
 super + w 
   alacritty -e nvim
