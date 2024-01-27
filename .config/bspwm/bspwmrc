@@ -24,6 +24,7 @@ dunst &
 ~/.config/polybar/launch.sh &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 ~/.config/keyboard.sh &
-
+~/.config/mouse.sh &
 bspc rule -a pavucontrol state=floating
 bspc rule -a Pavucontrol state=floating
+bspc rule -a steam state=floating

@@ -5,7 +5,7 @@ end
 
 #PFETCH config
 export PF_SEP=""
-export PF_INFO="ascii title os host kernel wm editor shell uptime pkgs memory"
+export PF_INFO="ascii title os kernel wm uptime pkgs memory"
 #export PF_SEP="~"
 
 alias i3con "vim ~/.config/i3/config"
