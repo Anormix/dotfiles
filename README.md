@@ -42,12 +42,12 @@ Some of them are not finished and I will add a TODO list to show everything that
   -polybar
   -waybar
 - **Notification Tool** - dunst
-- **Editor** - nvim
+- **Editor** - nvim - NvChad
 - **Hardware Monitor** - btop
 - **Color Scheme** - Catpuccin Mocha
 - **Application Runner** - rofi
 - **Wallpaper Manager**
-  -*X11* - nitrogen
+  - **X11** - nitrogen
 
 
 ## Using my dotfiles
