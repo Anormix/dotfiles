@@ -1,0 +1,24 @@
+[Default Applications]
+image/png=sxiv.desktop
+image/jpg=sxiv.desktop
+text/plain=nvim.desktop
+application/octet-stream=vim.desktop
+application/x-trash=nvim.desktop
+application/x-zerosize=nvim.desktop
+x-scheme-handler/http=xfce4-web-browser.desktop
+x-scheme-handler/https=xfce4-web-browser.desktop
+inode/symlink=thunar.desktop
+x-scheme-handler/ror2mm=r2modman.desktop
+application/x-tar=arandr.desktop
+
+[Added Associations]
+text/plain=nvim.desktop;
+application/octet-stream=nvim.desktop;vim.desktop;
+application/xml=nvim.desktop;
+application/x-trash=nvim.desktop;
+application/x-zerosize=vlc.desktop;userapp-alacritty -e cmus-BHAJH2.desktop;nvim.desktop;
+application/x-desktop=nvim.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
+inode/symlink=thunar.desktop;
+application/x-tar=org.kde.ark.desktop;arandr.desktop;

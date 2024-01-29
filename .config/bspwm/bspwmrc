@@ -3,8 +3,8 @@ xsetroot -cursor_name left_ptr
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
+#bspc monitor -d I II III IV V VI VII
 bspc monitor -d          
-#bspc monitor -d 󰊠 󰊠 󰊠 󰊠 󰊠 󰊠 󰊠
 bspc config border_width         3
 bspc config window_gap           8
 
@@ -20,11 +20,17 @@ bspc config presel_border_color     "#FF79C6"
 sxhkd &
 picom --config $HOME/.config/picom/picom.conf & -b --experimental-backends
 nitrogen --restore &
+#feh --bg-fill ~/Wallpapers/city.jpg &
 dunst &
 ~/.config/polybar/launch.sh &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 ~/.config/keyboard.sh &
 ~/.config/mouse.sh &
+
+#Window Rules
 bspc rule -a pavucontrol state=floating
 bspc rule -a Pavucontrol state=floating
 bspc rule -a steam state=floating
+bsp rule -a solaar state=floating
+bsp rule -a galculator state=floating
+bsp rule -a Galculator state=floating

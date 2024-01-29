@@ -50,6 +50,8 @@ alias yays='yay -S'
 alias yayr='yay -Rns'
 alias pacr='sudo pacman -Rns'
 
+alias pacclean='sudo pacman -Sc'
+
 starship init fish | source
 fish_add_path /home/user/.spicetify
 
