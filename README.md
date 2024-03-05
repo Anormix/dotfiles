@@ -39,8 +39,8 @@ Some of them are not finished and I will add a TODO list to show everything that
 - **Shell Promp** - Starship
 - **fonts** - JetBrainsMono Nerd Font
 - **bar**
-  -polybar
-  -waybar
+  - polybar
+  - waybar
 - **Notification Tool** - dunst
 - **Editor** - nvim - NvChad
 - **Hardware Monitor** - btop
