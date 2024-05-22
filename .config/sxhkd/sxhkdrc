@@ -5,6 +5,7 @@
 # terminal emulator
 super + Return
         alacritty
+
 # program launcher
 super + d
 	rofi -show drun
@@ -16,16 +17,16 @@ super + b
   com.brave.Browser
 
 super + e 
-  thunar
+ pcmanfm 
 
 super + F1
-  obsidian
+  emacsclient -c -a "emacs" 
 
 super + F2
   pavucontrol
 
 super + F3
-  alacritty -e ranger
+  alacritty -e lf
 
 super + F4
   alacritty -e btop
@@ -35,6 +36,7 @@ super + F5
 
 super + w 
   alacritty -e nvim
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd

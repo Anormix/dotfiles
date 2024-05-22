@@ -1,7 +1,8 @@
 if status is-interactive
-pfetch
+  #pfetch
 	# Commands to run in interactive sessions can go here
 end
+export PATH="$HOME/.emacs.d/bin:$PATH"
 
 #PFETCH config
 export PF_SEP=""
@@ -18,7 +19,8 @@ alias bsp "vim ~/.config/bspwm/bspwmrc"
 alias polycon "vim ~/.config/polybar/config.ini"
 alias v nvim
 alias vim nvim
-
+alias emacs "emacsclient -c -a 'emacs'"
+alias doomcon "vim ~/.config/doom/config.el"
 #Make gitui use the catpuccin mocha theme
 alias gitui "gitui -t mocha.ron"
 

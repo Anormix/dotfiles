@@ -8,8 +8,11 @@ application/x-zerosize=nvim.desktop
 x-scheme-handler/http=xfce4-web-browser.desktop
 x-scheme-handler/https=xfce4-web-browser.desktop
 inode/symlink=thunar.desktop
-x-scheme-handler/ror2mm=r2modman.desktop
 application/x-tar=arandr.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-0ROZN2.desktop
+message/rfc822=userapp-Thunderbird-0ROZN2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-0ROZN2.desktop
+application/toml=emacsclient.desktop
 
 [Added Associations]
 text/plain=nvim.desktop;
@@ -21,4 +24,6 @@ application/x-desktop=nvim.desktop;
 x-scheme-handler/http=xfce4-web-browser.desktop;
 x-scheme-handler/https=xfce4-web-browser.desktop;
 inode/symlink=thunar.desktop;
-application/x-tar=org.kde.ark.desktop;arandr.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-0ROZN2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-0ROZN2.desktop;
+application/toml=emacsclient.desktop;

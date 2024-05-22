@@ -3,10 +3,9 @@ xsetroot -cursor_name left_ptr
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-#bspc monitor -d I II III IV V VI VII
-bspc monitor -d          
-bspc config border_width         3
-bspc config window_gap           8
+bspc monitor -d I II III IV V VI VII
+bspc config border_width         2
+bspc config window_gap           7
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
@@ -18,9 +17,9 @@ bspc config presel_border_color     "#FF79C6"
 
 #Autostart applications
 sxhkd &
+emacs --daemon &
 picom --config $HOME/.config/picom/picom.conf & -b --experimental-backends
 nitrogen --restore &
-#feh --bg-fill ~/Wallpapers/city.jpg &
 dunst &
 ~/.config/polybar/launch.sh &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
@@ -31,6 +30,7 @@ dunst &
 bspc rule -a pavucontrol state=floating
 bspc rule -a Pavucontrol state=floating
 bspc rule -a steam state=floating
-bsp rule -a solaar state=floating
-bsp rule -a galculator state=floating
-bsp rule -a Galculator state=floating
+bspc rule -a solaar state=floating
+bspc rule -a galculator state=floating
+bspc rule -a Galculator state=floating
+bspc rule -a Emacs state=tiled
