@@ -44,24 +44,19 @@ git clone https://github.com/Anormix/dotfiles
 ```
 2. Copy the code that you like to your own config
 
+# TODO
+
 > [!IMPORTANT]
 > Read everything very carefully before downloading anything!
 
 This repository contains all the dotfiles that I have. 
 Some of them are not finished and I will add a TODO list to show everything that I haven't currently configured and shouldn't be used.
 
-### TODO
 - [ ] Configure Hyprland
 - [ ] Configure Waybar
 - [ ] Finish ranger config
       
-## ⚠️ Using my dotfiles
-> [!NOTE]
-> If you want to replicate my desktop or certain applications please read the **whole** file before downloading it and putting it in your `.config` folder.
-> If something doesn't work or doesn't look good on your end that means you did something wrong.
-> Everything that isn't in the **TODO** section should work perfectly fine.
-
-## Reporting bugs / Suggestions
+# ⚠️ Reporting bugs / Suggestions
 If you find a bug in my configs or there is a better way to implement something do not hesitate to write a bug report or to message me!
 **Before sending a bug report find out if the issue is caused by something you did wrong and not actually by the config file.**
 
