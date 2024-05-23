@@ -1,14 +1,13 @@
 if status is-interactive
-  #pfetch
 	# Commands to run in interactive sessions can go here
 end
-export PATH="$HOME/.emacs.d/bin:$PATH"
 
 #PFETCH config
+pfetch
 export PF_SEP=""
 export PF_INFO="ascii title os kernel wm uptime pkgs memory"
-#export PF_SEP="~"
 
+#Aliases
 alias i3con "vim ~/.config/i3/config"
 alias alac "vim ~/.config/alacritty/alacritty.toml"
 alias piconf "vim ~/.config/picom/picom.conf"
@@ -21,21 +20,23 @@ alias v nvim
 alias vim nvim
 alias emacs "emacsclient -c -a 'emacs'"
 alias doomcon "vim ~/.config/doom/config.el"
-#Make gitui use the catpuccin mocha theme
 alias gitui "gitui -t mocha.ron"
+alias dots "cd ~/dotfiles/"
 
 ### ADDING TO THE PATH
 # First line removes the path; second line sets it.  Without the first line,
 # your path gets massive and fish becomes very slow.
 set -e fish_user_paths
 set -U fish_user_paths $HOME/.bin  $HOME/.local/bin $HOME/.config/emacs/bin $HOME/Applications /var/lib/flatpak/exports/bin/ $fish_user_paths
+export PATH="$HOME/.emacs.d/bin:$PATH"
+fish_add_path /home/user/.spicetify
 
 ### EXPORT ###
 set fish_greeting                                 # Supresses fish's intro message
 
 #EDITORS
-set -gx EDITOR nvim
-set -gx VISUAL nvim
+set -gx EDITOR emacs
+set -gx VISUAL emacs
 
 # Changing "ls" to "eza"
 alias ls='eza -al --color=always --group-directories-first' # my preferred listing
@@ -51,14 +52,11 @@ alias pacs='sudo pacman -S'
 alias yays='yay -S'
 alias yayr='yay -Rns'
 alias pacr='sudo pacman -Rns'
-
 alias pacclean='sudo pacman -Sc'
 
 starship init fish | source
-fish_add_path /home/user/.spicetify
 
 ### FUNCTIONS ###
-
 # Functions needed for !! and !$
 function __history_previous_command
   switch (commandline -t)

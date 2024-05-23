@@ -1,7 +1,7 @@
 [Default Applications]
 image/png=sxiv.desktop
 image/jpg=sxiv.desktop
-text/plain=nvim.desktop
+text/plain=emacsclient.desktop
 application/octet-stream=vim.desktop
 application/x-trash=nvim.desktop
 application/x-zerosize=nvim.desktop
@@ -13,9 +13,10 @@ x-scheme-handler/mailto=userapp-Thunderbird-0ROZN2.desktop
 message/rfc822=userapp-Thunderbird-0ROZN2.desktop
 x-scheme-handler/mid=userapp-Thunderbird-0ROZN2.desktop
 application/toml=emacsclient.desktop
+text/markdown=emacsclient.desktop
 
 [Added Associations]
-text/plain=nvim.desktop;
+text/plain=emacsclient.desktop;nvim.desktop;
 application/octet-stream=nvim.desktop;vim.desktop;
 application/xml=nvim.desktop;
 application/x-trash=nvim.desktop;
@@ -27,3 +28,4 @@ inode/symlink=thunar.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird-0ROZN2.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-0ROZN2.desktop;
 application/toml=emacsclient.desktop;
+text/markdown=emacsclient.desktop;
