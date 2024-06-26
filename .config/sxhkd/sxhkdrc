@@ -14,7 +14,7 @@ super + shift + e
   ~/.config/rofi/shutdown.sh  
 
 super + b 
-  com.brave.Browser
+  firefox
 
 super + e 
  pcmanfm 

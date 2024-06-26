@@ -2,7 +2,7 @@
 
 
 ;;set the font
-(setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 15))
+(setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 20))
 
 ;;Set the theme
 (setq doom-theme 'doom-one)

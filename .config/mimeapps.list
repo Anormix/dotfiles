@@ -5,9 +5,6 @@ text/plain=emacsclient.desktop
 application/octet-stream=vim.desktop
 application/x-trash=nvim.desktop
 application/x-zerosize=nvim.desktop
-x-scheme-handler/http=xfce4-web-browser.desktop
-x-scheme-handler/https=xfce4-web-browser.desktop
-inode/symlink=thunar.desktop
 application/x-tar=arandr.desktop
 x-scheme-handler/mailto=userapp-Thunderbird-0ROZN2.desktop
 message/rfc822=userapp-Thunderbird-0ROZN2.desktop
@@ -16,15 +13,12 @@ application/toml=emacsclient.desktop
 text/markdown=emacsclient.desktop
 
 [Added Associations]
-text/plain=emacsclient.desktop;nvim.desktop;
+text/plain=Alacritty.desktop;emacsclient.desktop;nvim.desktop;
 application/octet-stream=nvim.desktop;vim.desktop;
 application/xml=nvim.desktop;
 application/x-trash=nvim.desktop;
 application/x-zerosize=vlc.desktop;userapp-alacritty -e cmus-BHAJH2.desktop;nvim.desktop;
 application/x-desktop=nvim.desktop;
-x-scheme-handler/http=xfce4-web-browser.desktop;
-x-scheme-handler/https=xfce4-web-browser.desktop;
-inode/symlink=thunar.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird-0ROZN2.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-0ROZN2.desktop;
 application/toml=emacsclient.desktop;

@@ -8,7 +8,6 @@ export PF_SEP=""
 export PF_INFO="ascii title os kernel wm uptime pkgs memory"
 
 #Aliases
-alias i3con "vim ~/.config/i3/config"
 alias alac "vim ~/.config/alacritty/alacritty.toml"
 alias piconf "vim ~/.config/picom/picom.conf"
 alias fishcon "vim ~/.config/fish/config.fish"
@@ -45,14 +44,16 @@ alias ll='eza -l --color=always --group-directories-first'  # long format
 alias lt='eza -aT --color=always --group-directories-first' # tree listing
 alias l.='eza -a | egrep "^\."'
 
-# pacman and yay
+# pacman and paru
 alias pacsyu='sudo pacman -Syu'                  # update only standard pkgs
 alias pacsyyu='sudo pacman -Syyu'                # Refresh pkglist & update standard pkgs
 alias pacs='sudo pacman -S'
-alias yays='yay -S'
-alias yayr='yay -Rns'
 alias pacr='sudo pacman -Rns'
 alias pacclean='sudo pacman -Sc'
+
+alias yays='yay -S'
+alias yayr='yay -Rns'
+alias yayclean='yay -Sc --aur'                  #Clears yaya cache
 
 starship init fish | source
 
