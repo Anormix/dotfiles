@@ -6,11 +6,13 @@ application/octet-stream=vim.desktop
 application/x-trash=nvim.desktop
 application/x-zerosize=nvim.desktop
 application/x-tar=arandr.desktop
-x-scheme-handler/mailto=userapp-Thunderbird-0ROZN2.desktop
+x-scheme-handler/mailto=org.mozilla.Thunderbird.desktop
 message/rfc822=userapp-Thunderbird-0ROZN2.desktop
 x-scheme-handler/mid=userapp-Thunderbird-0ROZN2.desktop
 application/toml=emacsclient.desktop
 text/markdown=emacsclient.desktop
+x-scheme-handler/notion=notion-app.desktop
+text/calendar=org.mozilla.Thunderbird.desktop
 
 [Added Associations]
 text/plain=Alacritty.desktop;emacsclient.desktop;nvim.desktop;
@@ -19,7 +21,10 @@ application/xml=nvim.desktop;
 application/x-trash=nvim.desktop;
 application/x-zerosize=vlc.desktop;userapp-alacritty -e cmus-BHAJH2.desktop;nvim.desktop;
 application/x-desktop=nvim.desktop;
-x-scheme-handler/mailto=userapp-Thunderbird-0ROZN2.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-0ROZN2.desktop;org.mozilla.Thunderbird.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-0ROZN2.desktop;
 application/toml=emacsclient.desktop;
 text/markdown=emacsclient.desktop;
+x-scheme-handler/sms=org.gnome.Shell.Extensions.GSConnect.desktop;
+x-scheme-handler/tel=org.gnome.Shell.Extensions.GSConnect.desktop;
+text/calendar=org.mozilla.Thunderbird.desktop;
