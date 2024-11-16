@@ -1,3 +1,19 @@
+[[ -r ~/Repos/znap/znap.zsh ]] ||
+    git clone --depth 1 -- https://github.com/marlonrichert/zsh-snap.git ~/Repos/znap
+source ~/Repos/znap/znap.zsh
+
+# `znap prompt` makes your prompt visible in just 15-40ms!
+znap prompt sindresorhus/pure
+
+# `znap source` starts plugins.
+znap source marlonrichert/zsh-autocomplete
+# `znap function` lets you lazy-load features you don't always need.
+znap function _pyenv pyenv "znap eval pyenv 'pyenv init - --no-rehash'"
+compctl -K    _pyenv pyenv
+
+# `znap install` adds new commands and completions.
+znap install aureliojargas/clitest zsh-users/zsh-completions
+
 ### EXPORT
 export TERM="xterm-256color"                      # getting proper colors
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
@@ -37,7 +53,7 @@ alias pacclean="sudo pacman -Sc"
 alias unlock="sudo rm /var/lib/pacman/db.lck"    # remove pacman lock
 alias yays='yay -S'
 alias yayr='yay -Rns'
-alias yayclean='yay -Sc --aur'                  #Clears yaya cache
+alias yayclean='yay -Sc --aur'                  #Clears yay cache
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
