@@ -8,8 +8,6 @@ I manage my dotiles using ```stow``` I recommend that you also you it because it
 - Keybinds manager - sxhkd
 - Compositor - Picom [Fork - jonaburg](https://github.com/lcdse7en/jonaburg-picom)
 - File Manager
-  - ranger
-  - pcmanfm
 - Fetch Tools
   - pfetch
   - neofetch

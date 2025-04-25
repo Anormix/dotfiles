@@ -45,6 +45,13 @@ zstyle ':fzf-tab:*' fzf-preview 'bat --style=numbers --color=always --line-range
 
 #Invoke Starship
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+eval "$(fzf --zsh)"
 
 # Aliases
-alias ls='eza --icons --group-directories-first --color=always'
+alias ls='eza -la --icons --group-directories-first --color=always'
+alias aptin='sudo apt install'
+alias aptrem='sudo apt remove'
+alias aptpur='sudo apt purge'
+alias aptarem='sudo apt autoremove'
+alias cd='z'

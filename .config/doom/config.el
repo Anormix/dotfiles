@@ -20,8 +20,8 @@
 ;;
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
-;;
-(setq doom-font (font-spec :family "SauceCodePro NF" :size 17 :weight 'regular)
+;;SauceCodePro NF
+(setq doom-font (font-spec :family "SauceCodePro NF" :size 18 :weight 'regular)
       doom-variable-pitch-font (font-spec :family "Ubuntu" :size 13))
 (setq doom-line-numbers-style 'relative)
 ;;
