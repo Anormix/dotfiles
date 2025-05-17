@@ -49,9 +49,22 @@ eval "$(zoxide init zsh)"
 eval "$(fzf --zsh)"
 
 # Aliases
+#APT
 alias ls='eza -la --icons --group-directories-first --color=always'
 alias aptin='sudo apt install'
 alias aptrem='sudo apt remove'
 alias aptpur='sudo apt purge'
 alias aptarem='sudo apt autoremove'
+#DNF
+alias dnfin='sudo dnf install'
+alias dnfrem='sudo dnf remove'
+alias dnfup='sudo dnf update'
+#alias dnfin='sudo dnf install'
+
+
 alias cd='z'
+
+
+
+export PATH=$PATH:/home/user/.spicetify
+export PATH=$PATH:/home/user/.config/emacs/bin
